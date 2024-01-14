@@ -12,12 +12,12 @@ $client = new Client($sid, $token);
 // SIP addresses are formatted as name@company.com.
 // Client identifiers are formatted client:name.
 // SIM SIDs are formatted as sim:sid
-$to = "+XXXXXXXXXX";
+$to = "+61421024697";
 
 // The phone number or client identifier to use as the caller id.
 // If using a phone number, it must be a Twilio number or a Verified outgoing caller id for your account.
 // If the "to" parameter is a phone number, "from" must also be a phone number.
-$from = "+XXXXXXXXXX";
+$from = "+481615022";
 
 // Make a phone call
 $call = $client->calls->create(
